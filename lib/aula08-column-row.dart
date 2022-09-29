@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 import 'aula04.dart';
 
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+class MyApp8 extends StatelessWidget {
+  const MyApp8({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -47,7 +47,6 @@ class HomePage extends StatelessWidget {
               onTap: () {
                 // Navigator.of(context).push(
                 //   MaterialPageRoute(builder: (context) => const MyApp04()),
-                );
               },
             ),
           ],
@@ -75,13 +74,18 @@ class HomePage extends StatelessWidget {
               height: 50,
             ),
             Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
                 Container(
                   color: Colors.green,
                   width: 50,
                   height: 50,
                 ),
-               
+                Container(
+                  color: Colors.orange,
+                  width: 50,
+                  height: 50,
+                ),
               ],
             )
           ],
